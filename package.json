@@ -1,0 +1,17 @@
+{
+  "name": "obsidian-prompt-plugin",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Obsidian plugin to create prompt notes with title-only command flow.",
+  "scripts": {
+    "build": "node esbuild.config.mjs production",
+    "dev": "node esbuild.config.mjs",
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.30",
+    "esbuild": "^0.25.0",
+    "obsidian": "^1.8.7",
+    "typescript": "^5.8.2"
+  }
+}

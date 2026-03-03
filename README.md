@@ -39,3 +39,31 @@ created: 2026-03-03T00:00:00.000Z
 ## Chinese README
 
 See [README.zh-CN.md](./README.zh-CN.md).
+
+## Development
+
+```bash
+npm install
+npm run dev
+```
+
+- `npm run dev`: watch mode, rebuilds `main.js` on changes
+- `npm run build`: one-time production build
+- `npm run check`: TypeScript type check
+
+## Release
+
+1. Update `manifest.json` version and `versions.json`.
+2. Commit and push to `main`.
+3. Create and push a tag:
+
+```bash
+git tag v0.1.0
+git push origin v0.1.0
+```
+
+The GitHub Actions workflow will build and upload:
+
+- `manifest.json`
+- `main.js`
+- `styles.css`

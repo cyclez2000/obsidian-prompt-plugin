@@ -23,7 +23,7 @@ const DEFAULT_SETTINGS: PromptCaptureSettings = {
 };
 
 export default class PromptCapturePlugin extends Plugin {
-	settings: PromptCaptureSettings;
+	settings!: PromptCaptureSettings;
 
 	async onload() {
 		await this.loadSettings();

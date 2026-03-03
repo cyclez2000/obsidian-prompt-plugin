@@ -39,3 +39,31 @@ created: 2026-03-03T00:00:00.000Z
 ## English README
 
 见 [README.md](./README.md)。
+
+## 开发
+
+```bash
+npm install
+npm run dev
+```
+
+- `npm run dev`：监听模式，代码变更后自动重建 `main.js`
+- `npm run build`：一次性生产构建
+- `npm run check`：TypeScript 类型检查
+
+## 发布
+
+1. 更新 `manifest.json` 和 `versions.json` 里的版本号。
+2. 提交并推送到 `main`。
+3. 创建并推送标签：
+
+```bash
+git tag v0.1.0
+git push origin v0.1.0
+```
+
+GitHub Actions 会自动构建并上传：
+
+- `manifest.json`
+- `main.js`
+- `styles.css`
