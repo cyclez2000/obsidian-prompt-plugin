@@ -40,17 +40,6 @@ created: 2026-03-03T00:00:00.000Z
 
 See [README.zh-CN.md](./README.zh-CN.md).
 
-## Development
-
-```bash
-npm install
-npm run dev
-```
-
-- `npm run dev`: watch mode, rebuilds `main.js` on changes
-- `npm run build`: one-time production build
-- `npm run check`: TypeScript type check
-
 ## Release
 
 1. Update `manifest.json` version and `versions.json`.
