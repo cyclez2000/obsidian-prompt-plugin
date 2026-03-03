@@ -1,0 +1,6 @@
+.prompt-capture-textarea {
+	width: 100%;
+	min-height: 220px;
+	resize: vertical;
+	margin-top: 8px;
+}
