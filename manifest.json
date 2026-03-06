@@ -1,7 +1,7 @@
 {
   "id": "prompt-capture-plugin",
   "name": "Prompt Capture",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "minAppVersion": "1.5.0",
   "description": "Add and organize prompts from Command Palette with custom categories.",
   "author": "local-dev",
